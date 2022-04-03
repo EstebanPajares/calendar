@@ -1,3 +1,27 @@
+:root{
+    --white: #FFFFFE;
+    --gray50: #222222;
+    --gray20: #70757A;
+    --gray10: #F1F3F4;
+    --gray30: #3C4043;
+    --blue10: #1A73E8;
+    --blue20: #039BE5;
+    --red10: #E8453C;
+    --green10:#33B679;
+    --blue30: #1967D2;
+    --basefont-family: 'Roboto', sans-serif;
+    --body1-regular: 400 0.875rem/1.25rem var(--basefont-family);
+    --body1-medium: 500 0.875rem/1.25rem var(--basefont-family);
+    --body2-regular: 400 0.75rem/1rem var(--basefont-family);
+    --body2-medium: 500 0.75rem/1rem var(--basefont-family);
+    --body3-regular: 400 0.625rem/0.5rem var(--basefont-family);
+    --body3-medium: 500 0.625rem/0.5rem var(--basefont-family);
+    --buttom: 500 0.875rem/1rem var(--basefont-family);
+    --caption: 400 0.6875rem/0.805625rem var(--basefont-family);
+    --subtitle: 400 1.375rem/1.75rem var(--basefont-family);
+}
+
 body{
-    background: #70757A;
+    font: var(--body1-regular);
+    color: var(--blue30);
 }
