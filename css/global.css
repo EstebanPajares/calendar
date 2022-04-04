@@ -1,4 +1,3 @@
-@import './icons.css';
 :root{
     --white: #FFFFFE;
     --gray50: #222222;
@@ -25,4 +24,5 @@
 body{
     font: var(--body1-regular);
     color: var(--blue30);
+    margin: 0;
 }
