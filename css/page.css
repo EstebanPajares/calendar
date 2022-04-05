@@ -8,18 +8,18 @@
 
 .page .header{
     grid-area: header;
-    border: 10px solid blue;
+    border: 2px solid blue;
     
 }
 
 .page .sidebar{
     grid-area: sidebar;
-    border: 10px solid orangered;
+    border: 2px solid orangered;
     
 }
 
 .page .calendar{
     grid-area: calendar;
-    border: 10px solid green;
+    border: 2px solid green;
     
 }
