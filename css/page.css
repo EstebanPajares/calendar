@@ -1,31 +1,25 @@
 .page{
     display:grid;
     grid-template-columns: 15.25rem 1fr;
-    grid-template-rows: 6rem 5.37rem 1fr;
+    grid-template-rows: 6rem 1fr;
     block-size: 100vh;
-    grid-template-areas: 'header header' 'sidebar days' 'sidebar calendar';
+    grid-template-areas: 'header header' 'sidebar calendar';
 }
 
 .page .header{
     grid-area: header;
-    border: 1px solid blue;
+    border: 10px solid blue;
     
 }
 
 .page .sidebar{
     grid-area: sidebar;
-    border: 1px solid orangered;
-    
-}
-
-.page .days{
-    grid-area: days;
-    border: 1px solid red;
+    border: 10px solid orangered;
     
 }
 
 .page .calendar{
     grid-area: calendar;
-    border: 1px solid green;
+    border: 10px solid green;
     
 }
