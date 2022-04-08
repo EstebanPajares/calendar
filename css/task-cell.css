@@ -1,8 +1,7 @@
 .taskCell{
-    border-inline-start: 1px solid currentColor;
+    border-inline-start: 1px solid currentColor; /* toma el color del elemento más cercano que haya heredado */
     border-block-end: 1px solid currentColor;
     padding:.25rem;
-    cursor: pointer;
 }
 
 .taskCell:nth-child(8n){
