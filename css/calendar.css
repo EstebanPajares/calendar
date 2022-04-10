@@ -2,6 +2,7 @@
 @import './task.css';
 @import './calendar-day.css';
 @import './timezone-cell.css';
+@import './hour-cell.css';
 .calendar{
     color: var(--gray20);
     padding-inline: 1.5rem;
