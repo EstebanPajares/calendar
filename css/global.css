@@ -16,7 +16,7 @@
     --body2-medium: 500 0.75rem/1rem var(--basefont-family);
     --body3-regular: 400 0.625rem/0.5rem var(--basefont-family);
     --body3-medium: 500 0.625rem/0.5rem var(--basefont-family);
-    --buttom: 500 0.875rem/1rem var(--basefont-family);
+    --button: 500 0.875rem/1rem var(--basefont-family);
     --caption: 400 0.6875rem/0.805625rem var(--basefont-family);
     --subtitle: 400 1.375rem/1.75rem var(--basefont-family);
 }
@@ -24,5 +24,4 @@
 body{
     font: var(--body1-regular);
     margin: 0;
-    /* background: #222222; */
 }
