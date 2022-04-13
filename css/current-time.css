@@ -5,7 +5,7 @@
     inset-inline-start: 30rem;
     inset-block-start: 20rem;
     position: absolute;
-    z-index: 2;
+    z-index: -1;
 }
 
 .currentTime::before{
