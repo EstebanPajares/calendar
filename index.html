@@ -13,24 +13,40 @@
 <body>
     <div class="page">
         <header class="header">
-            <div class="calendarStatus">
-                <button class=" button is-secondary">Hoy</button>
-                <span class="calendarStatus-navigation">
-                    <a href="#" class="button is-compact" aria-label="Semana anterior">
-                        <i class="icon-chevronLeft" aria-hidden="true"></i>
+            <div class="header-primary">
+                <div class="div header-logo">
+                    <a class="button is-compact">
+                        <i class="icon-hamburguerButton"></i>
                     </a>
-                    <a href="#" class="button is-compact" aria-label="Siguiente semana">
-                        <i class="icon-chevronRight" aria-hidden="true"></i>
+                    <a href="/" aria-current="page" aria-label="Calendar" tabindex="-1"> <!-- Para que no se pueda navegar desde el teclado -->
+                        <img src="./images/logo.png" alt="">
                     </a>
-                </span>
-                <time class="calendarStatus-date" datetime="14-04-2022">14 de Abril 2022</time>
-            <select class="select" name="" id="">
-                <option value="">Día</option>
-                <option value="selected">Semana</option>
-                <option value="">Mes</option>
-                <option value="">Año</option>
-            </select>
-            <a href="#" class="button is-rounded is-shadowed">
+                </div>
+                <div class="calendarStatus">
+                    <button class=" button is-secondary">Hoy</button>
+                    <span class="calendarStatus-navigation">
+                        <a href="#" class="button is-compact" aria-label="Semana anterior">
+                            <i class="icon-chevronLeft" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="button is-compact" aria-label="Siguiente semana">
+                            <i class="icon-chevronRight" aria-hidden="true"></i>
+                        </a>
+                    </span>
+                    <time class="calendarStatus-date" datetime="18-04-2022">18 de Abril 2022</time>
+                </div>
+            </div>
+            <div class="header-secondary">
+                <select class="select" name="" id="">
+                    <option value="">Día</option>
+                    <option value="selected">Semana</option>
+                    <option value="">Mes</option>
+                    <option value="">Año</option>
+                </select>
+                <a href="#">
+                    <img src="./images/user.png" alt="">
+                </a>
+            </div>
+            <!-- <a href="#" class="button is-rounded is-shadowed">
                 <i class="icon-plus"></i> <span>Button</span>
             </a>
             <a href="#" class="button is-compact">
@@ -38,7 +54,7 @@
             </a>
             <a class="button" href="#">Button</a>
             <a href="#" class="button is-primary">Button</a>
-            <a href="#" class="button is-secondary">Button</a>
+            <a href="#" class="button is-secondary">Button</a> -->
         </header>
         <div class="sidebar"></div>
         <main class="calendar">
@@ -49,15 +65,15 @@
                     <a href="./calendar-by-day.html" aria-label="Domingo 10 de abril">
                         <time datetime="10-04-2022">
                             <span>DOM</span><br>
-                            <span>10</span>
+                            <span>17</span>
                         </time>
                     </a>
                 </h2>
-                <h2 class="calendarDay">
+                <h2 class="calendarDay is-selected">
                     <a href="./calendar-by-day.html" aria-label="Lunes 11 de abril">
                         <time datetime="11-04-2022">
                             <span>LUN</span><br>
-                            <span>11</span>
+                            <span>18</span>
                         </time>
                     </a>
                 </h2>
@@ -65,7 +81,7 @@
                     <a href="./calendar-by-day.html" aria-label="Martes 12 de abril">
                         <time datetime="12-04-2022">
                             <span>MAR</span><br>
-                            <span>12</span>
+                            <span>19</span>
                         </time>
                     </a>
                 </h2>
@@ -73,15 +89,15 @@
                     <a href="./calendar-by-day.html" aria-label="Miércoles 13 de abril">
                         <time datetime="13-04-2022">
                             <span>MIE</span><br>
-                            <span>13</span>
+                            <span>20</span>
                         </time>
                     </a>
                 </h2>
-                <h2 class="calendarDay is-selected">
+                <h2 class="calendarDay">
                     <a href="./calendar-by-day.html" aria-label="Jueves 14 de abril">
                         <time datetime="14-04-2022">
                             <span>JUE</span><br>
-                            <span>14</span>
+                            <span>21</span>
                         </time>
                     </a>
                 </h2>
@@ -89,7 +105,7 @@
                     <a href="./calendar-by-day.html" aria-label="Viernes 15 de abril">
                         <time datetime="15-04-2022">
                             <span>VIE</span><br>
-                            <span>15</span>
+                            <span>22</span>
                         </time>
                     </a>
                 </h2>
@@ -97,7 +113,7 @@
                     <a href="./calendar-by-day.html" aria-label="Sábado 16 de abril">
                         <time datetime="16-04-2022">
                             <span>SAB</span><br>
-                            <span>16</span>
+                            <span>23</span>
                         </time>
                     </a>
                 </h2>
