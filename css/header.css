@@ -24,3 +24,9 @@
     align-items:center;
     gap: 3rem;
 }
+
+.imgUser{
+    inline-size: 2rem;
+    block-size: 2rem;
+    border-radius: 50%;
+}
