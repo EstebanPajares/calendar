@@ -10,6 +10,7 @@
     background: trasnparent;
     border-radius: .25rem;
     outline:none;
+    border: none;
 }
 
 .button:active{
