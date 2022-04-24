@@ -482,9 +482,38 @@
         </main>
     </div>
     <dialog class="modal">
-        Design meet
         <form>
-            Hola
+            <div class="input">
+                <input required type="text" name="title" placeholder="Añade un título">
+            </div>
+            <div class="input">
+                <input type="date" name="date" required>
+            </div>
+            <div class="input">
+                <input type="time" name="time-start" required>
+            </div>
+            <div class="input">
+                <input type="time" name="time-end" required>
+            </div>
+            <div class="input">
+                <input type="text" list="guests" name="guests" id="" placeholder="Agregar invitados" required>
+                <datalist id="guests">
+                    <option value="Esteban"></option>
+                    <option value="Aynhara"></option>
+                    <option value="Melina"></option>
+                    <option value="Sebastián"></option>
+                    <option value="Liz"></option>
+                </datalist>
+            </div>
+            <div class="input">
+                <input name="location" type="text" placeholder="Agregar ubicación" required>
+            </div>
+            <div class="input">
+                <input type="file" multiple>
+            </div>
+            <div class="input">
+                <textarea name="Description" placeholder="Agregar Description" id="" cols="30" rows="5"></textarea>
+            </div>
         </form>
         <div class="modal-actions">
             <button class="button">Cancelar</button>
