@@ -482,37 +482,50 @@
         </main>
     </div>
     <dialog class="modal">
-        <form>
-            <div class="input">
-                <input required type="text" name="title" placeholder="Añade un título">
+        <form class="createTask">
+            <div class="input is-outstanding"> <!-- Elemento destacado -->
+                <div class="input-body">
+                    <input required type="text" name="title" placeholder="Añade un título">
+                </div>
             </div>
             <div class="input">
-                <input type="date" name="date" required>
+                <i class="icon-clock"></i>
+                <div class="input-body">
+                    <input type="date" name="date" required>
+                    <input type="time" name="time-start" required>
+                    <input type="time" name="time-end" required>
+                </div>
             </div>
             <div class="input">
-                <input type="time" name="time-start" required>
+                <i class="icon-users"></i>
+                <div class="input-body">
+                    <input type="text" list="guests" name="guests" id="" placeholder="Agregar invitados" required>
+                    <datalist id="guests">
+                        <option value="Esteban"></option>
+                        <option value="Aynhara"></option>
+                        <option value="Melina"></option>
+                        <option value="Sebastián"></option>
+                        <option value="Liz"></option>
+                    </datalist>
+                </div>
             </div>
             <div class="input">
-                <input type="time" name="time-end" required>
+                <i class="icon-gps"></i>
+                <div class="input-body">
+                    <input name="location" type="text" placeholder="Agregar ubicación" required>
+                </div>
             </div>
             <div class="input">
-                <input type="text" list="guests" name="guests" id="" placeholder="Agregar invitados" required>
-                <datalist id="guests">
-                    <option value="Esteban"></option>
-                    <option value="Aynhara"></option>
-                    <option value="Melina"></option>
-                    <option value="Sebastián"></option>
-                    <option value="Liz"></option>
-                </datalist>
+                <i class="icon-text"></i>
+                <div class="input-body">
+                    <input type="file" multiple>
+                </div>
             </div>
             <div class="input">
-                <input name="location" type="text" placeholder="Agregar ubicación" required>
-            </div>
-            <div class="input">
-                <input type="file" multiple>
-            </div>
-            <div class="input">
-                <textarea name="Description" placeholder="Agregar Description" id="" cols="30" rows="5"></textarea>
+                <i class="icon-text"></i>
+                <div class="input-body">
+                    <textarea name="Description" placeholder="Agregar Description" id="" cols="30" rows="1"></textarea>
+                </div>
             </div>
         </form>
         <div class="modal-actions">
