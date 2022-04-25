@@ -42,3 +42,7 @@
 .input textarea{
     resize: none;
 }
+
+.input-body .button.is-primary{
+    flex: 1;
+}
