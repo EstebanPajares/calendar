@@ -1,7 +1,7 @@
 .currentTime{
     inline-size: 5rem;
     block-size: .125rem;
-    position: absolute;
+    position: relative;
     background: var(--red10);
     inset-inline-start: 30rem;
     inset-block-start: 20rem;
