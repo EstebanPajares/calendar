@@ -30,3 +30,11 @@
     block-size: 2rem;
     border-radius: 50%;
 }
+
+@media screen and (prefers-color-scheme: dark){
+    .header i:hover,
+    .calendarStatus a:hover,
+    .calendarStatus i:hover{
+         color: var(--white);
+     }
+ }

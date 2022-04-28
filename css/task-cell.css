@@ -17,3 +17,10 @@
     border-radius: .25rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
+
+
+@media screen and (prefers-color-scheme: dark){
+    .taskCell p{
+        color: var(--gray50);
+    }
+}
