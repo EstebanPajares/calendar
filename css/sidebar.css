@@ -7,6 +7,65 @@
 
 }
 
-.buscarPersonas{
+/* .buscarPersonas{
     display: flex;
+} */
+
+
+.searchPeople{
+    background-color: var(--gray10);
+    inline-size: 12.25rem;
+    block-size: 2.5rem;
+    padding-block: .625rem;
+    padding-inline-start: 2.5rem;
+    box-sizing: border-box;
+    background-image: url(../icons/Icon=users.svg);
+    background-repeat: no-repeat;
+    background-position: .5rem;
+    border: none;
+    border-radius: .25rem;
+    flex: 1;
+    font: var(--body1-regular);
+}
+
+.searchPeople::placeholder{
+    font: var(--body1-regular);
+    color: var(--gray20);
+}
+
+.myCalendars{
+    inline-size: 12.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+    padding-inline-end: .5rem;
+}
+.myCalendars i{
+    font-size: 1.5rem;
+}
+.myCalendars i:hover{
+    transform: scale(.9);
+    cursor: pointer;
+}
+.myCalendars-check p{
+    font: var(--body1-regular);
+}
+
+.myCalendars-title{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.myCalendars-title p{
+    font: var(--body1-medium);
+}
+
+.myCalendars-check{
+    display: flex;
+    align-items:center;
+    gap: .5rem;
+}
+
+.icon-chevronUp:hover{
+    color: var(--white);
 }
