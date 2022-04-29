@@ -8,9 +8,3 @@
     font: var(--subtitle);
 }
 
-@media screen and (prefers-color-scheme: dark){
-   .calendarStatus a:hover,
-   .calendarStatus i:hover{
-        color: var(--white);
-    }
-}
