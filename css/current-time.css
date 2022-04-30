@@ -1,6 +1,6 @@
 .currentTime{
-    inline-size: 5rem;
-    block-size: .125rem;
+    inline-size: 6rem;
+    block-size: .25rem;
     position: relative;
     background: var(--red10);
     inset-inline-start: 30rem;
@@ -9,6 +9,26 @@
 }
 
 .currentTime::before{
+    content: '';
+    display: block;
+    inline-size: 1rem;
+    block-size: 1rem;
+    border-radius: 50%;
+    background: var(--red10);
+    transform: translateY(-50%);
+}
+
+.currentTime-day{
+    inline-size: calc(100% - 2.75rem);
+    block-size: .25rem;
+    position: relative;
+    background: var(--red10);
+    inset-inline-start: 2.75rem;
+    inset-block-start: 25rem;
+    z-index: -1;
+}
+
+.currentTime-day::before{
     content: '';
     display: block;
     inline-size: 1rem;
