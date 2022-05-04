@@ -4,11 +4,12 @@ Project Calendar, implemented from a design in Figma: [course of CSS Grid Layout
 
 ## Design Project
 
-![App Calendar](./design/Calendario.jpg)
+[Project Calendar](./design/Calendario.jpg)
 
-### Links
+## Links
+
 - [Website Project Calendar](https://estebanpajares.github.io/calendar/)
-- [Project Calendar](https://leonidasesteban.com/proyectos/frontend-calendar)
+- [Project Calendar](https://leonidasesteban.com/proyectos/calendario)
 
 ## Technologies
 
@@ -19,7 +20,7 @@ Project Calendar, implemented from a design in Figma: [course of CSS Grid Layout
 - Accesibility.
 - CSS Grid Layout and Interfaces.
 
-### Contact
+## Contact
 
 - Twitter [Esteban_Pajares](https://twitter.com/Esteban_Pajares)
 - Website [Portafolio-Esteban.github.io](https://estebanpajares.github.io/Portafolio-Esteban.github.io/)
