@@ -1,14 +1,14 @@
-# App Calendar
+# Project Calendar
 
 Project Calendar, implemented from a design in Figma: [course of CSS Grid Layout and Interfaces](https://leonidasesteban.com/cursos/css-grid-layout-interfaces)
 
-## Demo
+## Design Project
 
 ![App Calendar](./design/Calendario.jpg)
 
 ### Links
-- [Website](https://estebanpajares.github.io/calendar/)
-- [Project spotifu](https://leonidasesteban.com/proyectos/todos?search=calendar)
+- [Website Project Calendar](https://estebanpajares.github.io/calendar/)
+- [Project Calendar](https://leonidasesteban.com/proyectos/frontend-calendar)
 
 ## Technologies
 
