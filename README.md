@@ -4,7 +4,7 @@ Project Calendar, implemented from a design in Figma: [course of CSS Grid Layout
 
 ## Design Project
 
-[Project Calendar](./design/Calendario.jpg)
+![Project Calendar](./design/Calendario.jpg)
 
 ## Links
 
